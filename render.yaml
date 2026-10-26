@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: flightdeck-connected
+    runtime: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server.mjs"
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22
+      - key: HOST
+        value: 0.0.0.0

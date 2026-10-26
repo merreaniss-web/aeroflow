@@ -1,0 +1,9 @@
+{
+  "name": "FlightDeck",
+  "short_name": "FlightDeck",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#edf1f4",
+  "theme_color": "#101923",
+  "icons": []
+}
